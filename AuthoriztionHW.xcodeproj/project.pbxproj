@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		40D37B1D276F6AC0009EA3DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D37B1C276F6AC0009EA3DF /* AppDelegate.swift */; };
 		40D37B1F276F6AC0009EA3DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D37B1E276F6AC0009EA3DF /* SceneDelegate.swift */; };
-		40D37B21276F6AC0009EA3DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D37B20276F6AC0009EA3DF /* ViewController.swift */; };
+		40D37B21276F6AC0009EA3DF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D37B20276F6AC0009EA3DF /* MainViewController.swift */; };
 		40D37B24276F6AC0009EA3DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D37B22276F6AC0009EA3DF /* Main.storyboard */; };
 		40D37B26276F6AC1009EA3DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D37B25276F6AC1009EA3DF /* Assets.xcassets */; };
 		40D37B29276F6AC1009EA3DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D37B27276F6AC1009EA3DF /* LaunchScreen.storyboard */; };
+		40D37B33276F77A2009EA3DF /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D37B32276F77A2009EA3DF /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40D37B19276F6AC0009EA3DF /* AuthoriztionHW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthoriztionHW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D37B1C276F6AC0009EA3DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40D37B1E276F6AC0009EA3DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		40D37B20276F6AC0009EA3DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40D37B20276F6AC0009EA3DF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		40D37B23276F6AC0009EA3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40D37B25276F6AC1009EA3DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40D37B28276F6AC1009EA3DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40D37B2A276F6AC1009EA3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D37B32276F77A2009EA3DF /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				40D37B1C276F6AC0009EA3DF /* AppDelegate.swift */,
 				40D37B1E276F6AC0009EA3DF /* SceneDelegate.swift */,
-				40D37B20276F6AC0009EA3DF /* ViewController.swift */,
+				40D37B20276F6AC0009EA3DF /* MainViewController.swift */,
 				40D37B22276F6AC0009EA3DF /* Main.storyboard */,
+				40D37B32276F77A2009EA3DF /* HomePageViewController.swift */,
 				40D37B25276F6AC1009EA3DF /* Assets.xcassets */,
 				40D37B27276F6AC1009EA3DF /* LaunchScreen.storyboard */,
 				40D37B2A276F6AC1009EA3DF /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40D37B21276F6AC0009EA3DF /* ViewController.swift in Sources */,
+				40D37B33276F77A2009EA3DF /* HomePageViewController.swift in Sources */,
+				40D37B21276F6AC0009EA3DF /* MainViewController.swift in Sources */,
 				40D37B1D276F6AC0009EA3DF /* AppDelegate.swift in Sources */,
 				40D37B1F276F6AC0009EA3DF /* SceneDelegate.swift in Sources */,
 			);
